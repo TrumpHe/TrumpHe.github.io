@@ -1,9 +1,13 @@
 body {
     min-width:1230px;
-    padding-top: 168px;
+    padding-top: 166px;
 }
 .floatheader>.header, #nav {
     background-color: rgba(0, 65, 129, 1)!important;
+}
+
+hr {
+    display: block!important;
 }
 
 /* 搜索框在125%+， js监听resize，onload调整图片  前端伸缩搜索框  本地尽量先调试，平台备份*/
